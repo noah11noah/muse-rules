@@ -1,7 +1,18 @@
-# > Meta Muse & Meta AI 分流规则集
+# > Meta Muse 专属与底层 API 域名
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metaaiusercontent.com
+
+# > Meta/Facebook 核心登录、账户与认证服务
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,fbsbx.com
+
+# > Meta 基础设施与辅助域名（防止握手请求漏掉）
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,carriersignal.info
+DOMAIN-SUFFIX,amp-endpoint2.com
+DOMAIN-SUFFIX,amp-endpoint3.com
+DOMAIN-SUFFIX,tfbnw.net
