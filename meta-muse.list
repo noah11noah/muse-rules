@@ -2,27 +2,23 @@
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metaaivm.com
-
-# > 允许 Meta 的 UDP/QUIC 实时对话协议
-DOMAIN-SUFFIX,meta.ai,UDP
-DOMAIN-SUFFIX,muse.ai,UDP
-DOMAIN-SUFFIX,facebook.com,UDP
+DOMAIN-SUFFIX,meta.com
 
 # > Meta/Facebook 全局生态与图谱 API
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,fbsbx.com
 
-# > 其它可能涉及的底层握手域名
+# > 其它底层握手域名
 DOMAIN-SUFFIX,carriersignal.info
 DOMAIN-SUFFIX,amp-endpoint2.com
 DOMAIN-SUFFIX,amp-endpoint3.com
 DOMAIN-SUFFIX,tfbnw.net
 
-# > Meta 官方 ASN 核心 IP 兜底（防止长连接走直连）
+# > Meta 官方 ASN 与核心 IP 兜底
+IP-ASN,32934,no-resolve
 IP-CIDR,129.134.0.0/16,no-resolve
 IP-CIDR,157.240.0.0/16,no-resolve
 IP-CIDR,173.252.64.0/18,no-resolve
